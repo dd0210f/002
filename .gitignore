@@ -1,0 +1,39 @@
+# 排除敏感文件
+jl
+.env
+*.env
+lighter-signer-manager/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+*.egg-info/
+
+# Node modules
+node_modules/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+%SystemDrive%/
+
+# IDE 文件
+.vscode/
+.idea/
+
+# 临时文件
+*.log
+*.tmp
+temp_patch.txt
+test_orderbook.py
+
+# 备份文件
+*.backup
+
+# 临时项目目录
+perp-dex-tools-tmp/
